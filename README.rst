@@ -44,6 +44,18 @@ I recommend starting with the learning script:
 
 This code will learn the firstlayer basis functions and the phase transformation components and the amplitude components. It runs on 8x8 image patches, so you will not be able to see too much structure in the second layer functions. run_20.m works for 20x20 image patches.
 
+.. figure:: https://redwood.berkeley.edu/cadieu/pubs/figures/firstlayer_20.png
+   :scale: 30 %
+   :alt: learned firstlayer functions
+
+   Running run_20.m will produce 400 learned firstlayer functions.
+
+.. figure:: https://redwood.berkeley.edu/cadieu/pubs/figures/twolayer_20.png
+   :scale: 50 %
+   :alt: learned secondlayer functions
+
+   Running run_20.m will produce amplitude components (top) and phase transformation components (bottom).
+
 ==========================
 Data
 ==========================
