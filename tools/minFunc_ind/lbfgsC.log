@@ -1,0 +1,150 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=mex 2009.11.7)  9 JAN 2010 03:09
+entering extended mode
+ %&-line parsing enabled.
+**lbfgsC.c
+(./lbfgsC.c
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! You can't use `macro parameter character #' in vertical mode.
+l.1 #
+     include <math.h>
+? 
+! Interruption.
+<to be read again> 
+                   i
+l.1 #i
+      nclude <math.h>
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.2 #
+     include "mex.h"
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.13     int nVars,nSteps,lhs_
+                              dims[2];
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.16 
+     
+? 
+
+Overfull \hbox (36.77391pt too wide) in paragraph at lines 29--35
+\tenrm loc(nSteps,sizeof(double)); beta = mxCal-loc(nSteps,sizeof(double)); q =
+ mxCal-loc(nVars*(nSteps+1),sizeof(double));|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm l
+.\tenrm o
+.\kern0.27779
+.\tenrm c
+.\tenrm (
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.38     lhs_
+             dims[0] = nVars;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.40 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.41     plhs[0] = mxCreateNumericArray(2,lhs_
+                                              dims,mxDOUBLE_CLASS,mxREAL);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.43 
+     
+? 
+
+Overfull \hbox (60.46843pt too wide) in paragraph at lines 44--54
+[]\tenrm /* ro = 1/(y(:,i)'*s(:,i)) */ for(i=0;i<nSteps;i++)  temp = 0; for(j=0
+;j<nVars;j++)  temp += y[j+nVars*i]*s[j+nVars*i];|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm r
+.etc.
+
+
+Overfull \hbox (39.21848pt too wide) in paragraph at lines 71--77
+[]\tenrm /* q(:,i) = q(:,i+1)-alpha(i)*y(:,i) */ for(j=0;j<nVars;j++)  q[j+nVar
+s*i]=q[j+nVars*(i+1)]-alpha[i]*y[j+nVars*i];|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm q
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (123.88531pt too wide) in paragraph at lines 94--100
+[]\tenrm /* r(:,i+1) = r(:,i) + s(:,i)*(alpha(i)-beta(i)) */ for(j=0;j<nVars;j+
++)  r[j+nVars*(i+1)]=r[j+nVars*i]+s[j+nVars*i]*(alpha[i]-beta[i]);|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm r
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+[1]
+Output written on lbfgsC.dvi (1 page, 2892 bytes).
