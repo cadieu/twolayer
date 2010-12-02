@@ -81,22 +81,15 @@ save_every=5000;
 
 %% learn firstlayer basis functions (m.A)
 
-epochs = 40;
+epochs = 80;
 num_trials = 1000;
 
 for epoch = 1:epochs
     learn_firstlayer
 end
 
-epochs = 60;
-p.firstlayer.eta_dA_target = 2*p.firstlayer.eta_dA_target;
-
-for epoch = 1:epochs
-    learn_firstlayer
-end
-
 % anneal
-epochs = 40;
+epochs = 20;
 p.firstlayer.eta_dA_target = .25*p.firstlayer.eta_dA_target;
 
 for epoch = 1:epochs
