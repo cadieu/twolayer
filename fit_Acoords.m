@@ -46,8 +46,8 @@ for i=1:M
             Acoords(4,i) = fyspace(aAF==max(aAF(:)));
         case 'cm'
             % Compute centers using average
-            xw = sum(abs(Aim));
-            yw = sum(abs(Aim),2);
+            xw = sum(abs(aAim));
+            yw = sum(abs(aAim),2);
             fxw = sum(abs(aAF));
             fyw = sum(abs(aAF),2);
             Acoords(1,i) = sum(im_space.*xw)./sum(xw);
