@@ -44,6 +44,8 @@ I recommend starting with the learning script:
 
 This code will learn the firstlayer basis functions and the phase transformation components and the amplitude components. It runs on 8x8 image patches, so you will not be able to see too much structure in the second layer functions. run_20.m works for 20x20 image patches.
 
+Note that you do not need to compile any C/mex functions in the subdirectories for the twolayer code to run.
+
 .. figure:: https://redwood.berkeley.edu/cadieu/pubs/figures/firstlayer_20.png
    :scale: 30 %
    :alt: learned firstlayer functions
@@ -105,7 +107,27 @@ Using a GPU
 ==========================
 
 This code supports the Jacket package from Accelereyes to use a GPU. This is useful for large image patches (greater than 16x16), and makes it possible to learn models on 32x32 image patches in a reasonable amount of time. You can get a trial license here:
+
  http://www.accelereyes.com/products/jacket
+
+To enable the use of Jacket in the code, set the variable p.use_gpu (it is currently set to 0):
+
+::
+
+    p.use_gpu = 1;
+
+==========================
+Code Acknowledgements
+==========================
+
+This package utilizes code graciously provided by other authors. Please refer to their distributions for the latest and unmodified code.
+
+    * Mark Schmidt          - tools/minFunc_ind/ (with modifications by Jascha Sohl-Dickstein)
+    * Carl Edward Rasmussen - tools/minimize.m, tools/check.m
+    * Yan Karklin           - tools/cjet.m, tools/subp.m
+    * Daniel Eaton          - tools/sfigure.m
+    * John Iversen          - tools/freezeColors.m
+
 
 ==========================
 Citing this code
