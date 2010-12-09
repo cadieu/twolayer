@@ -81,25 +81,27 @@ end
 %   axis image off
 %   colormap hsv; freezeColors
 % else
+subp_space = 0.03;
 sfigure(fig_num);
-title('First-layer complex basis functions (m.A)')
+clf;
+%title('First-layer complex basis functions (m.A)')
 colormap gray
-subplot(221)
+subp(2,2,1,subp_space);
 h(1)=imagesc(real(array),[-1 1]);
 axis image off
 colormap gray; freezeColors
 title('real')
-subplot(222)
+subp(2,2,2,subp_space);
 h(2)=imagesc(imag(array),[-1 1]);
 axis image off
 colormap gray; freezeColors
 title('imag')
-subplot(223)
+subp(2,2,3,subp_space);
 h(3)=imagesc(abs(array),[0 max(abs(array(:)))]);
 axis image off
 title('abs')
 colormap gray; freezeColors
-subplot(224)
+subp(2,2,4,subp_space);
 h(4)=imagesc(angle(array),[-pi pi]);
 alpha(abs(array)/max(abs(array(:))));
 axis image off
