@@ -14,7 +14,7 @@ Please contact me if you find this code useful, find any bugs, or would like to 
 
 My email can be found here:
 
-https://redwood.berkeley.edu/cadieu
+http://charles.cadieu.us/
 
 Thanks,
  Charles Cadieu
