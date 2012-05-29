@@ -5,7 +5,7 @@ Spatial and Transformational Invariants for Natural Movies
 Thanks for downloading/viewing this code!
 
 This code is provided to accompany the research project:
-    "Learning Spatial and Transformational Invariants for Intermediate Visual Representation"
+    "Learning Intermediate-Level Representations of Form and Motion from Natural Movies"
         by Charles F. Cadieu and Bruno A. Olshausen
 
 The code is written in Matlab.
@@ -133,22 +133,39 @@ This package utilizes code graciously provided by other authors. Please refer to
 Citing this code
 ==========================
 
-We expect to publish a journal article of our work soon. Until then, if you would like to reference this code in a publication, please cite this conference paper:
-
-    Cadieu, CF., BA. Olshausen. Learning Transformational Invariants from Natural Movies. Neural Information Processing Systems (NIPS), 21:209-216, 2009.
+Please cite this journal article:
 
 ::
 
-	@incollection{CadieuNIPS2009,
-	Author = {Cadieu, C. and Olshausen, B.},
-	Booktitle = {Advances in Neural Information Processing Systems 21},
-	Date-Added = {2009-11-22 21:35:48 -0800},
-	Date-Modified = {2009-11-22 21:35:48 -0800},
-	Editor = {D. Koller and D. Schuurmans and Y. Bengio and L. Bottou},
-	Pages = {209--216},
-	Publisher = {MIT Press},
-	Title = {Learning Transformational Invariants from Natural Movies},
-	Year = {2009}
-	}
+        Learning Intermediate-Level Representations of Form and Motion from Natural Movies
+        Charles F. Cadieu and Bruno A. Olshausen
+        Neural Computation 2012 24:4, 827-866
 
+
+::
+
+        {Author = {Cadieu, Charles F. and Olshausen, Bruno A.},
+	Booktitle = {Neural Computation},
+	Da = {2012/04/01},
+	Do = {10.1162/NECO{\_}a{\_}00247},
+	Isbn = {0899-7667},
+	Journal = {Neural Computation},
+	Month = {2012/05/28},
+	Number = {4},
+	Pages = {827--866},
+	Publisher = {MIT Press},
+	Title = {Learning Intermediate-Level Representations of Form and Motion from Natural Movies},
+	Ty = {JOUR},
+	Url = {http://dx.doi.org/10.1162/NECO_a_00247},
+	Volume = {24},
+	Year = {2011},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1162/NECO_a_00247}}
+
+There is also an older conference paper relevant to this work:
+
+::
+
+        Learning Transformational Invariants from Natural Movies
+        Charles F. Cadieu and Bruno A. Olshausen
+        Neural Information Processing Systems (NIPS), 21:209-216, 2009.
 
